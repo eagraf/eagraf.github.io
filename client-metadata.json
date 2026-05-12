@@ -1,20 +1,12 @@
 {
   "client_id": "https://eagraf.github.io/client-metadata.json",
-  "client_name": "Meetkat",
+  "client_name": "Textile",
   "client_uri": "https://eagraf.github.io/client-metadata.json",
-  "redirect_uris": [
-    "meetkat.social://oauth",
-    "exp://192.168.86.58:8081"
-  ],
-  "scope": "",
-  "grant_types": [
-    "authorization_code",
-    "refresh_token"
-  ],
-  "response_types": [
-    "code"
-  ],
+  "redirect_uris": ["io.github.eagraf:/oauth"],
+  "scope": "atproto transition:generic",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
   "token_endpoint_auth_method": "none",
-  "application_type": "web",
+  "application_type": "native",
   "dpop_bound_access_tokens": true
 }
